@@ -186,7 +186,7 @@ export default {
 
       // 记录roleId
       this.currentRoleId = role.id;
-      
+
       this.checkedList = []
       // role当前角色对象
       this.setRightsDialogVisible = true
@@ -238,10 +238,7 @@ export default {
 </script>
 
 <style>
-.card {
-  height: 100%;
-  overflow: hidden;
-}
+
 .add-row {
   margin-top: 10px;
   margin-bottom: 10px;
